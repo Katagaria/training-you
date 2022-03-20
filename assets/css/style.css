@@ -1,16 +1,32 @@
+/* navigation menu */
+
 nav {
     position: fixed;
-    text-align: center;
-    left: 50%;
+    left: 59%;
     z-index: 1;
 }
 
 #nav-bar {
     list-style-type: none;
-    background-color: green;
     padding: 0;
+    margin: 0;
+    font-size: 250%;
+    font-family: 'Kanit', sans-serif;
+  }
+
+nav a {
+    text-decoration: none;
 }
-    
+
+li {
+    display: inline;
+    border: 2px solid #ffffff;
+}
+/*
+li a:hover {
+    background-color: ;
+}
+    */
 p {
     color:orange;
 }
@@ -21,7 +37,7 @@ body {
     padding: 0;
 }
 
-/* footer styling */
+/* footer */
 .social-networks {
     color: blueviolet
 }
