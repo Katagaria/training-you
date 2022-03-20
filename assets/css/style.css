@@ -2,15 +2,24 @@ p {
     color:orange;
 }
 
+body {
+    background-color: #ffffff;
+}
+
 /* footer styling */
 .social-networks {
     color: blueviolet
 }
 
-/* dog in hand image */
+/* dog sitting image */
 
 #dog-sit {
     height: 800px;
     width: 100%;
     background: url("../images/dog-sit.jpg") no-repeat center center;
+    border-radius: 20px;
+    border-bottom-right-radius: 900px;
+    border-bottom-left-radius: 900px;
+    position: relative;
+    bottom: 150px;
 }
