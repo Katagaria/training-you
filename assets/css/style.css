@@ -1,0 +1,16 @@
+p {
+    color:orange;
+}
+
+/* footer styling */
+.social-networks {
+    color: blueviolet
+}
+
+/* dog in hand image */
+
+#dog-sit {
+    height: 800px;
+    width: 100%;
+    background: url("../images/dog-sit.jpg") no-repeat center center;
+}
