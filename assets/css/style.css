@@ -51,6 +51,8 @@ a:hover {
     background-color: #c1c1c1
 }
 
+/* content */
+
 p {
     color: #000000;
     text-align: center;
@@ -69,7 +71,7 @@ body {
 
 .how-we-train, .how-we-can-help, .locations {
     padding: 20px;
-    width: 40%;
+    width: 90%;
     margin: auto;
 }
 
@@ -90,15 +92,10 @@ body {
     bottom: 150px;
 }
 
-/* media query 
+/* media query */
 
-@media screen and (max-width: 1200px) {
-    #nav-bar, #logo {
-        width: 65%;
-        height: 1200px;
+@media screen and (max-width: 320px) {
+    section {
         margin: 0 auto;
-        padding: 30px;
     }
 }
-
-*/
