@@ -1,9 +1,24 @@
+header {
+    width: 100%;
+}
+
+h1 {
+    position: relative;
+    left: 60px;
+}
+
+#logo {
+    font-family: 'Kanit', sans-serif;
+    color: black;
+}
+
 /* navigation menu */
 
 nav {
-    position: fixed;
-    left: 59%;
+    position: relative;
+    left: 57%;
     z-index: 1;
+    top: 5%;
 }
 
 #nav-bar {
@@ -12,6 +27,7 @@ nav {
     margin: 0;
     font-size: 250%;
     font-family: 'Kanit', sans-serif;
+    font-weight: bold;
   }
 
 nav a {
@@ -20,13 +36,17 @@ nav a {
 
 li {
     display: inline;
-    border: 2px solid #ffffff;
+    color: #000000;
 }
-/*
-li a:hover {
-    background-color: ;
+
+.nav-section a {
+    color: #000000;
+} 
+
+a:hover {
+    background-color: #c1c1c1
 }
-    */
+
 p {
     color:orange;
 }
