@@ -1,7 +1,3 @@
-header {
-    width: 65%;
-}
-
 h1 {
     position: relative;
     left: 60px;
@@ -71,14 +67,10 @@ body {
 
 /* h2 text sections */
 
-.how-we-can-help { 
+.how-we-train, .how-we-can-help, .locations {
     padding: 20px;
     width: 40%;
-}
-
-.how-we-train {
-    padding: 20px;
-    width: 40%;
+    margin: auto;
 }
 
 /* footer */
@@ -96,7 +88,6 @@ body {
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     bottom: 150px;
-    background-attachment: fixed;  
 }
 
 /* media query 
