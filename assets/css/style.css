@@ -1,3 +1,7 @@
+header {
+    width: 100%;
+}
+    
 h1 {
     position: relative;
     left: 60px;
@@ -22,6 +26,7 @@ nav {
     left: 57%;
     z-index: 1;
     top: 5%;
+    width: 100%;
 }
 
 #nav-bar {
@@ -80,6 +85,11 @@ body {
     color: blueviolet
 }
 
+#footer {
+    background-color: #000000;
+    margin: 0;
+}
+
 /* dog sitting image */
 
 #dog-sit {
@@ -96,6 +106,6 @@ body {
 
 @media screen and (max-width: 320px) {
     section {
-        margin: 0 auto;
+        margin: 0 auto; 
     }
 }
