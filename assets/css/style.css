@@ -2,19 +2,18 @@ header {
     width: 100%;
 }
     
-h1 {
+h1, h2 {
     position: relative;
     left: 60px;
-}
-
-h2 {
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 #logo {
     font-family: 'Kanit', sans-serif;
     color: black;
-    font-size: 400%;
+    font-size: 280%;
     margin: 0;
     text-align: center;
 }
@@ -27,6 +26,7 @@ nav {
     z-index: 1;
     top: 5%;
     width: 100%;
+    font-size: 80%;
 }
 
 #nav-bar {
@@ -70,6 +70,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Kanit', sans-serif;
+    color: #000000;
+    font-weight: 300;
 }
 
 /* h2 text sections */
@@ -86,26 +88,40 @@ body {
 }
 
 #footer {
-    background-color: #000000;
+    background-color: green;
     margin: 0;
+    overflow: hidden;
 }
 
 /* dog sitting image */
 
-#dog-sit {
+#hero-image > img {
+    width: 100%;
+    border-radius: 20px;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    size: 50%;
+}
+
+/* #hero-image {
     height: 550px;
     width: 100%;
-    background: url("../images/dog-sit.jpg") no-repeat center center;
     border-radius: 20px;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     bottom: 150px;
+    background: url("../images/dog-sit.jpg") no-repeat center center;
 }
+*/
 
 /* media query */
 
-@media screen and (max-width: 320px) {
-    section {
-        margin: 0 auto; 
+@media screen and (max-width: 1200px) {
+    #logo {
+        width: 65%;
+    }
+
+    #nav-bar {
+        padding: 30px 0;
     }
 }
