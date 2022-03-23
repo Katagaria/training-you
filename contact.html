@@ -17,7 +17,7 @@
 <body>
     <header>
         <a href="index.html">
-    <!-- Hero image -->
+    <!-- Hero Image -->
            <!--<div id="hero-image"><img src="assets/images/dog-sit.jpg" alt="A Belgian Malinois sitting next to his handler."></div> -->
         <h1 id="logo">Training You</h1></a>
     <!-- Navigation Bar -->
@@ -29,29 +29,32 @@
             </ul>
         </nav>
     </header>
+    <!-- Background Image -->
+    
     <!-- Contact Form -->
     <section class="form-section">
         <form action="https://formdump.codeinstitute.net" method="POST">
             <fieldset>
-                <p>Take this first step to transforming your relationship with your dog.
-                    <br>Contact us to find out more about our services.
-
-                </p>
-                <ul id="form-input" class="w3-container">
-            <!--fname-->
-            <li><label for="fname">Name</label>
-            <input type="fname" id="fname" name="fname" class="text-input"></li>
-            <!--email-->
-            <li><label for="email">E-mail</label>
-            <input type="text" id="email" name="email" class="text-input" required></li>
-            <!--phone-->
-            <li><label for="phone">Mobile</label>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{7}" required></li>
-            <!--button-->
-            <li class="button">
-            <button type="submit">Fetch!</button>
-            </li>
-            </ul>
+                    <h2>Get In Touch</h2>
+                    <p>Take this first step to transforming your relationship with your dog.
+                    <br>Contact us to find out more about our services.</p>
+                <ul id="form-input">
+                    <div class="container">
+                    <!--fname-->
+                        <li><label for="fname"><b>Name</b></label>
+                        <input type="text" id="fname" name="firstname" class="text-input"></li>
+                    <!--email-->
+                        <li><label for="email"><b>E-mail</b></label>
+                        <input type="text" id="email" name="email" class="text-input" required></li>
+                    <!--phone-->
+                        <li><label for="phone"><b>Mobile</b></label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{7}" required></li>
+                    <!--button-->
+                        <li class="button">
+                        <button type="submit">Fetch!</button>
+                        </li>
+                    </div>
+                    </ul>
             </fieldset>
         </form>
     </section>
