@@ -33,19 +33,23 @@
     <section class="form-section">
         <form action="https://formdump.codeinstitute.net" method="POST">
             <fieldset>
-                <p>Contact us to find out more about our services.
-                    <br>Take this first step to transforming your relationship with your dog.
+                <p>Take this first step to transforming your relationship with your dog.
+                    <br>Contact us to find out more about our services.
 
                 </p>
-                <ul>
-            <li><label for="fname">First Name</label>
-            <input type="text" id="fname" name="first_name" class="text-input" required></li>
-            <li><label for="lname">Last Name</label>
-            <input type="text" id="lname" name="last_name" class="text-input" required></li>
+                <ul id="form-input" class="w3-container">
+            <!--fname-->
+            <li><label for="fname">Name</label>
+            <input type="fname" id="fname" name="fname" class="text-input"></li>
+            <!--email-->
+            <li><label for="email">E-mail</label>
+            <input type="text" id="email" name="email" class="text-input" required></li>
+            <!--phone-->
             <li><label for="phone">Mobile</label>
             <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{7}" required></li>
+            <!--button-->
             <li class="button">
-            <button type="submit">Train With Me</button>
+            <button type="submit">Fetch!</button>
             </li>
             </ul>
             </fieldset>
