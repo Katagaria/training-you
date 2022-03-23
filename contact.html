@@ -6,34 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Dog training website for people needing a dog trainer in Dublin, Ireland">
     <meta name="keywords" content="dog training, dogs, ireland, dublin">
+    <!-- Link to Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
-
+    <!-- CSS stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Training You</title>
 </head>
 <body>
     <header>
-        <a href="index.html"><h1 id="logo">Training You</h1></a>
+        <a href="index.html">
+    <!-- Hero image -->
+           <!--<div id="hero-image"><img src="assets/images/dog-sit.jpg" alt="A Belgian Malinois sitting next to his handler."></div> -->
+        <h1 id="logo">Training You</h1></a>
+    <!-- Navigation Bar -->
         <nav class="nav-section">
             <ul id="nav-bar">
-                <li class="home">
-                    <a href="index.html">Home</a>
-                </li>
-                <li class="what-we-do">
-                    <a href="#">What We Do</a>
-                </li>
-                <li class="contact">
-                    <a href="#">Contact Us</a>
-                </li>
+                <li class="home"><a href="index.html">Home</a></li>
+                <li class="what-we-do"><a href="#">What We Do</a></li>
+                <li class="contact"><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <div id="dog-sit"></div>
+    <!-- Contact Form -->
+    <section class="form-section">
+        <form action="https://formdump.codeinstitute.net" method="POST">
+            <fieldset>
+                <ul>
+            <li><label for="fname">First Name</label>
+            <input type="text" id="fname" name="first_name" class="text-input" required></li>
+            <li><label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last_name" class="text-input" required></li>
+            <li><label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input" required></li>
+            <li class="button">
+            <button type="submit">Send your message</button>
+            </li>
+            </ul>
+            </fieldset>
+        </form>
     </section>
+
+    <!-- footer section -->
+
 <footer>
+    <div id="footer">
+        <h3>Social Media</h3>
     <ul class="social-networks">
         <li>
             <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">Facebook</a>
@@ -45,6 +64,8 @@
             <a href="https://Twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)">Twitter</a>
         </li>
     </ul>
+    <p>Copyright Lisa O'Connell 2022</p>
+    </div>
 </footer>
 </body>
 </html>

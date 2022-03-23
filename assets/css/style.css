@@ -16,6 +16,7 @@ h1, h2 {
     font-size: 280%;
     margin: 0;
     text-align: center;
+    background-color: rgba(0, 156, 26, 0.5);
 }
 
 /* navigation menu */
@@ -100,19 +101,9 @@ body {
     border-radius: 20px;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
-    size: 50%;
+    height: 45rem;
+    object-fit: cover;
 }
-
-/* #hero-image {
-    height: 550px;
-    width: 100%;
-    border-radius: 20px;
-    border-bottom-right-radius: 100%;
-    border-bottom-left-radius: 100%;
-    bottom: 150px;
-    background: url("../images/dog-sit.jpg") no-repeat center center;
-}
-*/
 
 /* media query */
 
@@ -125,3 +116,8 @@ body {
         padding: 30px 0;
     }
 }
+
+/* Contact Page Specific */
+
+/* Contact Form */
+
