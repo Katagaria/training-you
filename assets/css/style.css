@@ -1,5 +1,6 @@
 header {
     width: auto;
+    padding-top: 40px;
 }
     
 h1, h2 {
@@ -80,7 +81,6 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: green;
-    background-attachment: relative;
 }
 
 /* h2 text sections */
@@ -92,14 +92,21 @@ body {
 }
 
 /* footer */
+
+h3 {
+    text-align: center;
+}
+
 .social-networks {
-    color: blueviolet
+    text-align: center;
+    display: flex;
+    flex: column;
+    justify-content: center;
 }
 
 #footer {
     background-color: green;
-    margin: 0;
-    overflow: hidden;
+    padding-top: 40px;
 }
 
 /* dog sitting image */
@@ -124,14 +131,12 @@ body {
         padding: 30px 0;
     }
 
-    #form-section {
+    .form-section {
         margin: auto;
         content: auto;
     }
 
 }
-
-/* Contact Page Specific */
 
 /* Contact Form */
 
@@ -142,23 +147,17 @@ body {
 }
 
 #form-input {
-    display: flex;
-    border-radius: 5px;  
+    text-align: center;
 }
 
 #fname, #email, #phone {
     width: 100%;
     padding: 5px 5px;
-    margin: 20px 0;
-    display: inline-block;
+    margin: 15px auto;
     border: 2px solid #000000;
     box-sizing: border-box;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    border-radius: 10px;
+    max-width: 350px;
 }
 
 /* Submit button */
@@ -168,4 +167,6 @@ button {
     text-transform: uppercase;
     border-radius: 10px;
     border-style: solid;
+    border-width: 1px;
+    border-color: #000000
 }
