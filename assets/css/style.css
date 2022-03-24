@@ -77,9 +77,11 @@ body {
     font-family: 'Kanit', sans-serif;
     color: #000000;
     font-weight: 300;
-    background-image: url('/assets/images/DoginHand.jpeg');
+    background-color: green;
+    background: url('/assets/images/DoginHand.jpeg') no-repeat 50% 50px fixed;
     background-size: 100%;
-    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
     background-color: green;
 }
 
@@ -100,25 +102,24 @@ h3 {
 .social-networks {
     text-align: center;
     display: flex;
-    flex: column;
     justify-content: center;
 }
 
 #footer {
     background-color: green;
-    padding-top: 40px;
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000
 }
 
 /* dog sitting image */
 
-/* #hero-image > img {
-    width: 100%;
-    border-radius: 20px;
-    border-bottom-right-radius: 100%;
-    border-bottom-left-radius: 100%;
-    height: 45rem;
-    object-fit: cover;
-} */
+#hero-image {
+    background: url('/assets/images/DoginHand.jpeg') no-repeat center center;
+}
 
 /* media query */
 
@@ -133,7 +134,6 @@ h3 {
 
     .form-section {
         margin: auto;
-        content: auto;
     }
 
 }
