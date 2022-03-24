@@ -80,7 +80,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: green;
-    background-attachment: fixed;
+    background-attachment: relative;
 }
 
 /* h2 text sections */
@@ -137,7 +137,8 @@ body {
 
 .form-section {
     max-width: 700px;
-    margin: 60px auto;
+    margin: auto;
+    background-color: rgba(133, 128, 128, 0.7);
 }
 
 #form-input {
@@ -157,5 +158,14 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    align: center;
+    text-align: center;
+}
+
+/* Submit button */
+button {
+    background-color: #c6c6c6;
+    font-size: large;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border-style: solid;
 }
