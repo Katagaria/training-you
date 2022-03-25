@@ -25,11 +25,10 @@ h1, h2 {
 
 nav {
     font-family: 'Kanit', sans-serif;
-    font-size: 250%;
+    font-size: 200%;
     font-weight: bold;
     position: relative;
     text-align: center;
-    top: 5%;
 }
 
 .nav-bar {
@@ -42,7 +41,7 @@ nav {
   }
 
 nav a {
-    font-size: 110%;
+    font-size: 100%;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -107,6 +106,19 @@ h3 {
 a {
     color: #000000;
     text-decoration: none;
+}
+
+/* Map */
+
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    border-radius: 10px;
+    width: 400px;
 }
 
 /* media query */
