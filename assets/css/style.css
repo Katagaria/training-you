@@ -134,6 +134,10 @@ iframe {
 
 /* Contact Form */
 
+.form-section fieldset {
+    border-radius: 10px;
+}
+
 .form-section {
     background-color: rgba(133, 128, 128, 0.7);
     margin: auto;
