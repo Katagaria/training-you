@@ -2,7 +2,7 @@
 
 header {
     margin: 20px;
-}
+    }
     
 h1, h2 {
     letter-spacing: 4px;
@@ -63,16 +63,6 @@ nav a:hover {
 
 /* content */
 
-.image1 {
-    background: url('/assets/images/trainingyou.jpeg') center center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    height: 600px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    width: auto;
-}
-
 p {
     background-color: rgba(133, 128, 128, 0.7);
     border-radius: 10px;
@@ -83,8 +73,8 @@ p {
 }
 
 body {
-    background: url('/assets/images/DoginHand.jpeg') no-repeat 50% fixed;
     background-color: rgb(46, 46, 46);
+    background: url('/assets/images/doginhand.jpeg') no-repeat 50% fixed;
     background-size: 100%;
     color: #ffffff;
     font-family: 'Kanit', sans-serif;
