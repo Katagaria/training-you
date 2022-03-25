@@ -34,9 +34,9 @@ nav {
     background-color: rgb(192, 216, 192);
     border-radius: 10px;
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
-    width: 100%;
+    width: 695px;
   }
 
 nav a {
@@ -52,7 +52,8 @@ ul {
 }
 
 nav a:hover {
-    background-color: #c1c1c1
+    background-color: #c1c1c1;
+    border-radius: 10px;    
 }
 
 /* content */
