@@ -64,13 +64,13 @@ nav a:hover {
 /* content */
 
 .image1 {
-    background: url('/assets/images/dog-sit.jpg') center center;
+    background: url('/assets/images/trainingyou.jpeg') center center;
     background-repeat: no-repeat;
     border-radius: 10px;
     height: 600px;
-    width: auto;
     margin-bottom: 50px;
     margin-top: 50px;
+    width: auto;
 }
 
 p {
