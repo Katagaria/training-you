@@ -50,6 +50,7 @@ nav a {
 
 ul {
     list-style: none;
+    padding-left: 0;
 }
 
 nav a:hover {
