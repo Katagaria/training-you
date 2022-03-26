@@ -49,6 +49,10 @@ This website was designed to give an individual inspiration to get in contact wi
 
 * Google Screen Reader used to test aria-labels.
 
+* Website tested on Google Chrome, Mozilla Firefox and Microsoft Edge.
+
+* Form details submission tested, form behaved as expected.
+
 * Lighthouse used to test accessibility.
 ![image displaying lighthouse accessibility results](/assets/images/lighthouse.png "Image displaying lighthouse accessibility results")
 
@@ -67,3 +71,7 @@ This website was designed to give an individual inspiration to get in contact wi
 * GitHub - Source code hosted on GitHub.
 * Google Fonts - Added custom font.
 * Font Awesome - Icons.
+
+## Deployment
+
+*
