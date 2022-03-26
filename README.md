@@ -23,3 +23,9 @@ This website was designed to give an individual inspiration to get in contact wi
 
 ![image displaying responsiveness of landing page](/assets/images/responsiveness.png "Four screens of various sizes displaying the responsive elements of the landing page")
 
+#### The Footer
+
+* The footer section includes links to popular social media sites that Training You have an account for. Once clicked, they will open in a new window, as to keep them connected with the Training You website.
+
+![image of social media links located in the footer](/assets/images/footerlinks.png "Image of the website Footer displaying links to Facebook, Instagram and Twitter")
+
