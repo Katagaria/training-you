@@ -29,3 +29,8 @@ This website was designed to give an individual inspiration to get in contact wi
 
 ![image of social media links located in the footer](/assets/images/footerlinks.png "Image of the website Footer displaying links to Facebook, Instagram and Twitter")
 
+#### Training Gallery
+
+* The training gallery displays behaviours that the dog trainer can teach your dog. The purpose of this is to strengthen the confidence of the user in hiring the trainer as their abilities are displayed on this page.
+
+[image of the training gallery](/assets/images/traininggallery.png "Image of the training gallery")
