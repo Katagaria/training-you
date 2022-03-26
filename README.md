@@ -74,4 +74,18 @@ This website was designed to give an individual inspiration to get in contact wi
 
 ## Deployment
 
-*
+* The site was deployed to GitHub pages. The steps to deploy are as below.
+At the Github repository, navigate to the 'Settings' tab.
+From the menu on the left, select 'Pages'.
+From the source section drop-down menu, select the Branch: main.
+Click 'Save'
+A live link will be displayed ona green banner when published correctly.
+
+## Credits
+
+### Content
+* Google map link code was automatically generated via Google Maps embed link.
+* Taken inspiration for the ReadMe file from the Love Running README file and my mentor Daisy McGirrs' husband's Tacos Travels ReadMe file located [here](https://github.com/Gareth-McGirr/tacos-travels "link to Tacos Travels repository")
+
+### Media
+* Youtube videos come from my own personal Youtube channel [linked here](https://www.youtube.com/channel/UCCPTIGkJvl3tm-DgYs6Nkvg "link to Youtube channell")
