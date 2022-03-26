@@ -38,7 +38,7 @@ This website was designed to give an individual inspiration to get in contact wi
 ### Features Left to Implement
 
 * Additional page with details on who the dog trainer is along with their credentials.
-* Additional Training Gallery videos
+* Additional Training Gallery videos.
 * Additional details on training locations and prices.
 
 ## Testing
@@ -47,6 +47,11 @@ This website was designed to give an individual inspiration to get in contact wi
 
 ![image displaying responsiveness of landing page](/assets/images/responsiveness.png "Four screens of various sizes displaying the responsive elements of the landing page")
 
+* Google Screen Reader used to test aria-labels.
+
+* Lighthouse used to test accessibility.
+![image displaying lighthouse accessibility results](/assets/images/lighthouse.png "Image displaying lighthouse accessibility results")
+
 ### Validator Testing
 
 * HTML - No errors were returned when passing HTML through the official [W3C Validator](https://validator.w3.org/)
@@ -54,3 +59,11 @@ This website was designed to give an individual inspiration to get in contact wi
 
 ### Unfixed Bugs
 * No known bugs. Features working as desired.
+
+## Technologies Used
+
+* HTML - Created the structure of the website.
+* CSS - The website was styled using custom CSS through an external file.
+* GitHub - Source code hosted on GitHub.
+* Google Fonts - Added custom font.
+* Font Awesome - Icons.
