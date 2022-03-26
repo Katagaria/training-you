@@ -17,10 +17,6 @@ This website was designed to give an individual inspiration to get in contact wi
 
 * In front of this image is information on the training style of the dog trainer, along with an encouraging message to have the user get in contact.
 
-* This page is fully responsive.
-
-![image displaying responsiveness of landing page](/assets/images/responsiveness.png "Four screens of various sizes displaying the responsive elements of the landing page")
-
 ### The Footer
 
 * The footer section includes links to popular social media sites that Training You have an account for. Once clicked, they will open in a new window, as to keep them connected with the Training You website.
@@ -38,3 +34,19 @@ This website was designed to give an individual inspiration to get in contact wi
 * This page allows the user to submit their contact information to allow the trainer to get in contact with them, with a note of encouragement that this is their first step.
 
 ![Image of contact form](/assets/images/contactform.png "Image of contactg form")
+
+### Features Left to Implement
+
+* Additional page with details on who the dog trainer is along with their credentials.
+* Additional Training Gallery videos
+* Additional details on training locations and prices.
+
+## Testing
+
+* Each page is fully responsive from a minimum screen size of 320px and up.
+
+![image displaying responsiveness of landing page](/assets/images/responsiveness.png "Four screens of various sizes displaying the responsive elements of the landing page")
+
+### Validator Testing
+
+* HTML - No errors were returned when passing HTML through the official [W3C Validator](https://validator.w3.org/)
