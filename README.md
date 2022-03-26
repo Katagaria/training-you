@@ -50,3 +50,7 @@ This website was designed to give an individual inspiration to get in contact wi
 ### Validator Testing
 
 * HTML - No errors were returned when passing HTML through the official [W3C Validator](https://validator.w3.org/)
+* CSS - No errors were returned when passing CSS through the official [Jigsaw Validator](https://jigsaw.w3.org/)
+
+### Unfixed Bugs
+* No known bugs. Features working as desired.
