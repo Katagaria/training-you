@@ -69,8 +69,6 @@ This website was designed to give an individual inspiration to get in contact wi
 * HTML - Created the structure of the website.
 * CSS - The website was styled using custom CSS through an external file.
 * GitHub - Source code hosted on GitHub.
-* Google Fonts - Added custom font.
-* Font Awesome - Icons.
 
 ## Deployment
 
@@ -86,6 +84,10 @@ A live link will be displayed ona green banner when published correctly.
 ### Content
 * Google map link code was automatically generated via Google Maps embed link.
 * Taken inspiration for the ReadMe file from the Love Running README file and my mentor Daisy McGirrs' husband's Tacos Travels ReadMe file located [here](https://github.com/Gareth-McGirr/tacos-travels "link to Tacos Travels repository")
+* rgbacolorpicker.com for hex to rgba conversion.
 
 ### Media
-* Youtube videos come from my own personal Youtube channel [linked here](https://www.youtube.com/channel/UCCPTIGkJvl3tm-DgYs6Nkvg "link to Youtube channell")
+* Youtube videos come from my own personal Youtube channel [linked here](https://www.youtube.com/channel/UCCPTIGkJvl3tm-DgYs6Nkvg "link to Youtube channel")
+* Google Fonts - Added custom font.
+* Font Awesome - Icons.
+* pexels.com - Use of free stock photo.
