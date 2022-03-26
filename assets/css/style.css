@@ -124,6 +124,10 @@ a {
 
 /* Videos  */
 
+iframe {
+    border-radius: 10px;
+}
+
 /* Contact Form */
 
 .form-section fieldset {
