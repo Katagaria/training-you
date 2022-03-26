@@ -14,4 +14,12 @@ This website was designed to give an individual inspiration to get in contact wi
 
 #### The landing page
 * This page has a background image of a dog's paw in a woman's hand, to signify the joint partnership that you have when training together with your dog.
+
+![image of a dog's paw in a woman's hand](/assets/images/doginhandsmall.png "Woman holding the paw of her dog")
+
 * In front of this image is information on the training style of the dog trainer, along with an encouraging message to have the user get in contact.
+
+* This page is fully responsive.
+
+![image displaying responsiveness of landing page](/assets/images/responsiveness.png "Four screens of various sizes displaying the responsive elements of the landing page")
+
