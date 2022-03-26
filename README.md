@@ -77,7 +77,7 @@ At the Github repository, navigate to the 'Settings' tab.
 From the menu on the left, select 'Pages'.
 From the source section drop-down menu, select the Branch: main.
 Click 'Save'
-A live link will be displayed ona green banner when published correctly.
+A live link will be displayed on a blue banner when published correctly.
 
 ## Credits
 
